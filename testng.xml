@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Lerning Main Suit" parallel="methods" thread-count="5">
+	<listeners>
+		<listener class-name="testSelenium.learning.ListenerTestClass"></listener>
+	</listeners>
+	<test name="Learning tests" group-by-instances="true">
+		<parameter name="browser" value="firefox" />
+		
+		<classes>
+			<class name="testSelenium.learning.NaukariTest"></class>
+		</classes>
+	</test>
+</suite>

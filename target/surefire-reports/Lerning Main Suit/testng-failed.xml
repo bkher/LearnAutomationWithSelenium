@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Lerning Main Suit]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="testSelenium.learning.ListenerTestClass"/>
+  </listeners>
+  <test thread-count="5" parallel="methods" name="Learning tests(failed)" verbose="0">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testSelenium.learning.NaukariTest">
+        <methods>
+          <include name="exitBrowser"/>
+          <include name="NaukariPageTest"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- testSelenium.learning.NaukariTest -->
+    </classes>
+  </test> <!-- Learning tests(failed) -->
+</suite> <!-- Failed suite [Lerning Main Suit] -->
