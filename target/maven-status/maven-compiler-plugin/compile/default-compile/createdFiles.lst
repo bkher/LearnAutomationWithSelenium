@@ -1,0 +1,10 @@
+Pages\Guru99HomePage.class
+commonPackage\BasePage.class
+Pages\GooglePage.class
+commonPackage\Utility.class
+Pages\FlightReservationPage.class
+Pages\Guru99AlertPage.class
+Pages\LoginPage.class
+Pages\Guru99Page.class
+Pages\NaukariPage.class
+Pages\LambdatestPage.class

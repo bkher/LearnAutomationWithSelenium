@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.359 s <<< FAILURE! - in TestSuite
-testSelenium.learning.NaukariTest.NaukariPageTest  Time elapsed: 0.019 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "commonPackage.Utility.testWithActionClass(String, org.openqa.selenium.WebElement)" because "this.utils" is null
-	at testSelenium.learning.NaukariTest.NaukariPageTest(NaukariTest.java:14)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 59.263 s - in TestSuite

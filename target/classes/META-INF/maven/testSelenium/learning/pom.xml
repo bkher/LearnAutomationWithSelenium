@@ -14,7 +14,7 @@
 	<properties>
 		<compiler-pluginVersion>3.8.0</compiler-pluginVersion>
 		<surefire-pluginVersion>3.0.0-M5</surefire-pluginVersion>
-		<project.java.version>1.8</project.java.version>
+		<project.java.version>11</project.java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 

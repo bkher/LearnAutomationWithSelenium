@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Lerning_Main_Suit" class="navigator-link">
-              <span class="suite-name border-failed">Lerning Main Suit</span>
+              <span class="suite-name border-passed">Lerning Main Suit</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Lerning_Main_Suit" class="navigator-link ">
-                    <span>testng.xml</span>
+                    <span>F:\LearnAutomationWithSelenium\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Lerning_Main_Suit" class="hide-methods failed suite-Lerning_Main_Suit"> (hide)</a> <!-- hide-methods failed suite-Lerning_Main_Suit -->
-                      <a href="#" panel-name="suite-Lerning_Main_Suit" class="show-methods failed suite-Lerning_Main_Suit"> (show)</a> <!-- show-methods failed suite-Lerning_Main_Suit -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Lerning_Main_Suit" class="hide-methods passed suite-Lerning_Main_Suit"> (hide)</a> <!-- hide-methods passed suite-Lerning_Main_Suit -->
+                      <a href="#" panel-name="suite-Lerning_Main_Suit" class="show-methods passed suite-Lerning_Main_Suit"> (show)</a> <!-- show-methods passed suite-Lerning_Main_Suit -->
                     </span>
-                    <div class="method-list-content failed suite-Lerning_Main_Suit">
+                    <div class="method-list-content passed suite-Lerning_Main_Suit">
                       <span>
-                        <img src="failed.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Lerning_Main_Suit" title="testSelenium.learning.NaukariTest" class="method navigator-link" hash-for-method="NaukariPageTest">NaukariPageTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Lerning_Main_Suit -->
+                    </div> <!-- method-list-content passed suite-Lerning_Main_Suit -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,9 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Lerning_Main_Suit" class="panel Lerning_Main_Suit">
-          <div class="suite-Lerning_Main_Suit-class-failed">
+          <div class="suite-Lerning_Main_Suit-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">testSelenium.learning.NaukariTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -128,22 +128,14 @@
                   <a name="NaukariPageTest">
                   </a> <!-- NaukariPageTest -->
                   <span class="method-name">NaukariPageTest</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;commonPackage.Utility.testWithActionClass(String, org.openqa.selenium.WebElement)&quot; because &quot;this.utils&quot; is null
-	at Pages.NaukariPage.mouseHoverAndClick(NaukariPage.java:21)
-	at testSelenium.learning.NaukariTest.NaukariPageTest(NaukariTest.java:14)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 8 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Lerning_Main_Suit-class-failed -->
+          </div> <!-- suite-Lerning_Main_Suit-class-passed -->
         </div> <!-- panel Lerning_Main_Suit -->
         <div panel-name="test-xml-Lerning_Main_Suit" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/bkher/Documents/JavaPrograms/learning/testng.xml</span>
+            <span class="header-content">F:\LearnAutomationWithSelenium\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -200,12 +192,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'NaukariPageTest')
 data.setCell(0, 2, 'testSelenium.learning.NaukariTest')
-data.setCell(0, 3, 18);
+data.setCell(0, 3, 1624);
 window.suiteTableData['Lerning_Main_Suit']= { tableData: data, tableDiv: 'times-div-Lerning_Main_Suit'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 18 ms</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Lerning_Main_Suit">
               </div> <!-- times-div-Lerning_Main_Suit -->
             </div> <!-- times-div -->
@@ -237,14 +229,12 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">NaukariPageTest</span>
-                <span class="method-start">11188 ms</span>
+                <span class="method-start">51979 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">exitBrowser</span>
-                <span class="method-start">11209 ms</span>
+                <span class="method-start">53604 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
